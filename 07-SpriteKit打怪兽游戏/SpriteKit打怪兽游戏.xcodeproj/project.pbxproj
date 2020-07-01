@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F00F5E124AB4F4D00302C81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F00F5E024AB4F4D00302C81 /* AppDelegate.m */; };
+		8F00F5E724AB4F4D00302C81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F00F5E624AB4F4D00302C81 /* ViewController.m */; };
+		8F00F5EA24AB4F4D00302C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F00F5E824AB4F4D00302C81 /* Main.storyboard */; };
+		8F00F5EC24AB4F4E00302C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F00F5EB24AB4F4E00302C81 /* Assets.xcassets */; };
+		8F00F5EF24AB4F4E00302C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F00F5ED24AB4F4E00302C81 /* LaunchScreen.storyboard */; };
+		8F00F5F224AB4F4E00302C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F00F5F124AB4F4E00302C81 /* main.m */; };
+		8F00F5FA24AB4FEF00302C81 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F00F5F924AB4FEF00302C81 /* MyScene.m */; };
+		8F00F5FD24AB501300302C81 /* ResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F00F5FC24AB501300302C81 /* ResultScene.m */; };
+		8F00F60124AB507600302C81 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8F00F5FF24AB507600302C81 /* background-music-aac.caf */; };
+		8F00F60224AB507600302C81 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8F00F60024AB507600302C81 /* pew-pew-lei.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F00F5DC24AB4F4C00302C81 /* SpriteKit打怪兽游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit打怪兽游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F00F5DF24AB4F4D00302C81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F00F5E024AB4F4D00302C81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F00F5E524AB4F4D00302C81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F00F5E624AB4F4D00302C81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F00F5E924AB4F4D00302C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F00F5EB24AB4F4E00302C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F00F5EE24AB4F4E00302C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F00F5F024AB4F4E00302C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F00F5F124AB4F4E00302C81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F00F5F824AB4FEF00302C81 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		8F00F5F924AB4FEF00302C81 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		8F00F5FB24AB501300302C81 /* ResultScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultScene.h; sourceTree = "<group>"; };
+		8F00F5FC24AB501300302C81 /* ResultScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultScene.m; sourceTree = "<group>"; };
+		8F00F5FF24AB507600302C81 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		8F00F60024AB507600302C81 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F00F5D924AB4F4C00302C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F00F5D324AB4F4C00302C81 = {
+			isa = PBXGroup;
+			children = (
+				8F00F5DE24AB4F4D00302C81 /* SpriteKit打怪兽游戏 */,
+				8F00F5DD24AB4F4C00302C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F00F5DD24AB4F4C00302C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F00F5DC24AB4F4C00302C81 /* SpriteKit打怪兽游戏.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F00F5DE24AB4F4D00302C81 /* SpriteKit打怪兽游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				8F00F5DF24AB4F4D00302C81 /* AppDelegate.h */,
+				8F00F5E024AB4F4D00302C81 /* AppDelegate.m */,
+				8F00F5E524AB4F4D00302C81 /* ViewController.h */,
+				8F00F5E624AB4F4D00302C81 /* ViewController.m */,
+				8F00F5F824AB4FEF00302C81 /* MyScene.h */,
+				8F00F5F924AB4FEF00302C81 /* MyScene.m */,
+				8F00F5FB24AB501300302C81 /* ResultScene.h */,
+				8F00F5FC24AB501300302C81 /* ResultScene.m */,
+				8F00F5FE24AB507600302C81 /* Sounds */,
+				8F00F5E824AB4F4D00302C81 /* Main.storyboard */,
+				8F00F5EB24AB4F4E00302C81 /* Assets.xcassets */,
+				8F00F5ED24AB4F4E00302C81 /* LaunchScreen.storyboard */,
+				8F00F5F024AB4F4E00302C81 /* Info.plist */,
+				8F00F5F124AB4F4E00302C81 /* main.m */,
+			);
+			path = "SpriteKit打怪兽游戏";
+			sourceTree = "<group>";
+		};
+		8F00F5FE24AB507600302C81 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8F00F5FF24AB507600302C81 /* background-music-aac.caf */,
+				8F00F60024AB507600302C81 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F00F5DB24AB4F4C00302C81 /* SpriteKit打怪兽游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F00F5F524AB4F4E00302C81 /* Build configuration list for PBXNativeTarget "SpriteKit打怪兽游戏" */;
+			buildPhases = (
+				8F00F5D824AB4F4C00302C81 /* Sources */,
+				8F00F5D924AB4F4C00302C81 /* Frameworks */,
+				8F00F5DA24AB4F4C00302C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpriteKit打怪兽游戏";
+			productName = "SpriteKit打怪兽游戏";
+			productReference = 8F00F5DC24AB4F4C00302C81 /* SpriteKit打怪兽游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F00F5D424AB4F4C00302C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = AlanGe;
+				TargetAttributes = {
+					8F00F5DB24AB4F4C00302C81 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 8F00F5D724AB4F4C00302C81 /* Build configuration list for PBXProject "SpriteKit打怪兽游戏" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F00F5D324AB4F4C00302C81;
+			productRefGroup = 8F00F5DD24AB4F4C00302C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F00F5DB24AB4F4C00302C81 /* SpriteKit打怪兽游戏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F00F5DA24AB4F4C00302C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F00F60124AB507600302C81 /* background-music-aac.caf in Resources */,
+				8F00F5EF24AB4F4E00302C81 /* LaunchScreen.storyboard in Resources */,
+				8F00F5EC24AB4F4E00302C81 /* Assets.xcassets in Resources */,
+				8F00F60224AB507600302C81 /* pew-pew-lei.caf in Resources */,
+				8F00F5EA24AB4F4D00302C81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F00F5D824AB4F4C00302C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F00F5FA24AB4FEF00302C81 /* MyScene.m in Sources */,
+				8F00F5FD24AB501300302C81 /* ResultScene.m in Sources */,
+				8F00F5E724AB4F4D00302C81 /* ViewController.m in Sources */,
+				8F00F5E124AB4F4D00302C81 /* AppDelegate.m in Sources */,
+				8F00F5F224AB4F4E00302C81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F00F5E824AB4F4D00302C81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F00F5E924AB4F4D00302C81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F00F5ED24AB4F4E00302C81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F00F5EE24AB4F4E00302C81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F00F5F324AB4F4E00302C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F00F5F424AB4F4E00302C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F00F5F624AB4F4E00302C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpriteKit打怪兽游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlanGe.SpriteKit-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F00F5F724AB4F4E00302C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpriteKit打怪兽游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlanGe.SpriteKit-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F00F5D724AB4F4C00302C81 /* Build configuration list for PBXProject "SpriteKit打怪兽游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F00F5F324AB4F4E00302C81 /* Debug */,
+				8F00F5F424AB4F4E00302C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F00F5F524AB4F4E00302C81 /* Build configuration list for PBXNativeTarget "SpriteKit打怪兽游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F00F5F624AB4F4E00302C81 /* Debug */,
+				8F00F5F724AB4F4E00302C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F00F5D424AB4F4C00302C81 /* Project object */;
+}
